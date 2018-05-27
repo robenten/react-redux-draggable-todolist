@@ -18,8 +18,8 @@ const AddTodo = ({ dispatch }) => {
                 input.value = ''
             }}>
                 <div className="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" style={{backgroundColor: 'transparent', borderColor: 'transparent'}}>
+                    <div className="input-group-prepend">
+                        <span className="input-group-text" style={{backgroundColor: 'transparent', borderColor: 'transparent'}}>
                             <a href="https://github.com/robenten/react-redux-draggable-todolist" target="_blank">
                                 <img src={gitHubMark} alt="Go to Repository!" width="30" height="30" border="0"/>
                             </a>
