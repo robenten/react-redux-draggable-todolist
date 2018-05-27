@@ -2,6 +2,10 @@ body {
     background-color: honeydew;
 }
 
+.container-fluid {
+    max-width: 750px;
+}
+
 .jumbotron {
     margin-bottom: 0;
     /* background-color: lightgoldenrodyellow; */
