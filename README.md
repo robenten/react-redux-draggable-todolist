@@ -7,6 +7,7 @@ A draggable todo list based on [React](https://reactjs.org/), [Redux](https://re
 ![example](https://github.com/robenten/static-files/raw/master/draggable-todo-list-implementation.gif)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+It's based on [Todo](https://github.com/reduxjs/redux/tree/master/examples/todos) example of Redux, with removable & draggable features and Bootstrap CSS.
 
 ## Examples
 
