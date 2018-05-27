@@ -1,6 +1,6 @@
 # react-redux-draggable-todolist
 
-A draggable todo list based on React, Redux and React DnD
+A draggable todo list based on [React](https://reactjs.org/), [Redux](https://redux.js.org/) and [React DnD](http://react-dnd.github.io/react-dnd/)
 
 [![Build Status](https://travis-ci.org/robenten/react-redux-draggable-todolist.svg?branch=master)](https://travis-ci.org/robenten/react-redux-draggable-todolist)
 
