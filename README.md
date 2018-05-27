@@ -4,6 +4,8 @@ A draggable todo list based on React, Redux and React DnD
 
 [![Build Status](https://travis-ci.org/robenten/react-redux-draggable-todolist.svg?branch=master)](https://travis-ci.org/robenten/react-redux-draggable-todolist)
 
+![example](https://github.com/robenten/static-files/raw/master/draggable-todo-list-implementation.gif)
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
