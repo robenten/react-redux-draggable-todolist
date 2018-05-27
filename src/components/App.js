@@ -11,6 +11,7 @@ import rootReducer from '../reducers'
 // import components
 import AddTodo from '../containers/AddTodo'
 import VisibleTodoList from '../containers/VisibleTodoList'
+import Footer from './Footer'
 
 const loggerMiddleware = createLogger()
 const preloadedState = undefined
@@ -30,6 +31,7 @@ class App extends Component {
         <div className="container-fluid" style={{maxWidth: '750px'}}>
           <AddTodo />
           <VisibleTodoList />
+          <Footer />
         </div>
       </Provider>
     )
