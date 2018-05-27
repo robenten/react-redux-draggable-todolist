@@ -27,7 +27,7 @@ class App extends Component {
   render() {
     return (
       <Provider store={store}>
-        <div className="container-fluid">
+        <div className="container-fluid" style={{maxWidth: '750px'}}>
           <AddTodo />
           <VisibleTodoList />
         </div>

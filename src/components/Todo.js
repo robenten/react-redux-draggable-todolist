@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const Todo = ({ onClick, onRemove, completed, text }) => {
-    let className = 'list-group-item'
+    let className = 'list-group-item list-group-item-custom'
     if (completed) {
         className += ' list-group-item-light'
     } else {
