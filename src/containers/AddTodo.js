@@ -20,7 +20,7 @@ const AddTodo = ({ dispatch }) => {
                 <div className="input-group mb-3">
                     <div className="input-group-prepend">
                         <span className="input-group-text" style={{backgroundColor: 'transparent', borderColor: 'transparent'}}>
-                            <a href="https://github.com/robenten/react-redux-draggable-todolist" target="_blank">
+                            <a href="https://github.com/robenten/react-redux-draggable-todolist" target="_blank" rel="noopener noreferrer">
                                 <img src={gitHubMark} alt="Go to Repository!" width="30" height="30" border="0"/>
                             </a>
                         </span>
