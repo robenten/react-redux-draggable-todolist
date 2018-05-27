@@ -1,0 +1,41 @@
+body {
+    background-color: honeydew;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    /* background-color: lightgoldenrodyellow; */
+    /* background-image: url('https://s3.amazonaws.com/secretsaucefiles/photos/images/000/076/389/large/IMG_5866.JPG?1481217459'); */
+    background-image: url('http://www.visitruidoso.com/wp-content/uploads/2013/07/produce.jpg');
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;              /* optional, center the image */
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.removeBtm {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+
+.removeBtm:hover {
+    background-color: #f5c6cb;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-outline-dark {
+    color: white;
+    border-color: lightgrey;
+}
