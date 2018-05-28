@@ -2,12 +2,13 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { addTodo } from '../actions'
 import gitHubMark from '../assets/GitHub-Mark-Light-64px.png'
+import backgroundImage from '../assets/grocery-store.jpg'
 
 const AddTodo = ({ dispatch }) => {
   let input
 
   return (
-    <div className="jumbotron jumbotron-fluid jumbotron-custom">
+    <div className="jumbotron jumbotron-fluid jumbotron-custom" style={{ backgroundImage: `url(${backgroundImage})` }}>
         <div className="container">
             <form onSubmit={e => {
                 e.preventDefault()

@@ -5,7 +5,6 @@ body {
 .jumbotron-custom {
     position: relative;
     margin-bottom: 0;
-    background-image: url('http://www.visitruidoso.com/wp-content/uploads/2013/07/produce.jpg');
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;              /* optional, center the image */
